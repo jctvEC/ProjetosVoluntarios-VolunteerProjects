@@ -1,4 +1,164 @@
-# Projetos Voluntarios/ Volunteer Projects
+Text below im english and portuguese. Texto abaixo em inglês e português.
+
+# Volunteer Projects
+This document aims to describe the function of this repository. So, here you can find projects and activities from all areas of the Openredu community, making it accessible to employees interested in contributing in a wide variety of ways, either with an observation made through the use of the platform or area of ​​interest, Development of code, Education, DevOps (infrastructure), Social Communication, among others. The minimum requirements needed (and where to find them) will be put down so you do not have problems!
+
+We believe in the social gain promoted by free software and we exalt all contributions received, thinking about it and for being a community, we encourage any suggestions, and whenever possible can be discussed with the community through the forum , in order to align the proposed changes with the vision of the community, preventing their contribution from being in limbo and not being incorporated as desired.
+
+We count on you, for a better use of the technologies for Education!
+
+# But what am I going to do, how and where can I build?
+If you have this question in your head, we suggest that you first introduce yourself to the community forum , and fill out this [form] ( https://goo.gl/Pz3WNx ) that we will be in touch with as soon as possible. And, do not worry if you do not know many terms used in the form, it will only serve to give us greater fitness than you want to do, and where to do it. Dái, we can forward you to a leader of some community project, so that you are instructed in what you can and want.
+
+# I do not know how to use git / github, what now?
+If you already know the use of git / gihub this section is not necessary. If you do not use this platform and are wondering what this is all about, we suggest that you first do some basic git / github course like this: https://www.udemy.com/git-e-github-para -initiators / or this https://br.udacity.com/course/how-to-use-git-and-github--ud775 , it is of the utmost importance that you know how to use git / github so that you can actually contribute with the community in a distributed way, regardless of where you are, be patient, you will see that it is quiet!
+
+# Repository and version control
+We use git as a version control system, and even if you do not need a few commands to share your contribution, we recommend a good understanding of git fundamentals , because commands such as stage, rebase, diff, and logging may be useful.
+
+The official core repository for the Openredu web application is publicly available on github , to checkout (do not worry if you do not know that term) and send the changes to the official repository, you need a Github account. To make the necessary settings, simply follow the setup instructions .
+
+# Contest Commitment Term (CLA)
+All Openredu contributors must sign CLA so that the community has the legal right to use their code. If you are an employee of a company, you should ensure that the company allows contributions to Open Source projects.
+
+# Reporting a problem
+The management of bugs (problems) is done by github and an issue (ie a "question") can be opened by any user. Github issues are the appropriate way to share and discuss tasks, enhancements, and bugs with the rest of the team. However, we recommend that some information be recorded for the bug to be promptly crawled and validated.
+
+Title : is a short sentence that succinctly describes what the bug is;
+Description : which is a complete description of the bug;
+Steps : Steps needed to reproduce the behavior that generated the bug;
+Result : Incorrect behavior of the application, which caused the bug;
+Expected result : Expected behavior of the application, if the bug had not occurred;
+Version : which refers to the version of the application in which the bug was found;
+Browser : browser and version of the same, used to access the platform;
+OS : which refers to the operating system in which the problem manifested itself,
+Annex : in which we can add documents, captured images, or any other information that helps in identifying and solving the bug.
+Once the issue is registered, a member of the team must confirm the pertinence of the request and assign the appropriate label:
+
+Backport - For problems in older versions whose solution has already been implemented in later versions;
+Bug - For confirmed issues with existing features;
+Critical - Causes data loss or corruption, freezes the application after a specific operation, or allows unauthenticated users to view protected content;
+Deploy - Regarding the installation / configuration process;
+Design - Requests for graphical interface and front-end components
+Discussion - Requests lacking specification, whose action plan needs to be discussed with team members.
+Improvement - Requests for improvement in existing functionalities;
+New functionality - Requests for new features;
+Review - Request for code review;
+Wishlist - Requests accepted by the team, suitable for development.
+Priority Low - Requests accepted by the team, but without urgency of resolution.
+Medium Priority - Requests accepted by the team, suitable for development.
+High Priority - Requests accepted by the team, whose resolution is essential.
+Versioning
+The Openredu versioning is an adaptation of semantic versioning and also consists of three integers, positive and sequential separated by dots (ex, 2.3.23).
+
+Major (first number) will be incremented annually from the community roadmap. Once all the functionalities are incorporated into the code we will have a major release. Backward compatibility is not guaranteed. Whenever the major is incremented, the patch and minor must be reset to 0.
+
+Minor (second number) must be incremented when entering, removing or adding a feature to Openredu. These changes must be compatible with earlier versions of the same major line (but not necessarily with subsequent versions). Whenever the minor is incremented, the patch must be reset to 0.
+
+Patch (third number) should be incremented when bug fixes or security enhancements are introduced. These changes must be fully compatible with earlier versions of the same minor line.
+
+Suffix can be added to the versioning by adding a hyphen and an identifier to specify the expected quality of a version, in which case some versioning rules can be made more flexible. Are they:
+
+rc (releases candidate) This suffix should appear next to the release of a release, added in extensively tested versions and supposedly bug-free. (ex, 1.2.3-rc)
+beta this suffix is ​​used for full functionality that will be made available for community testing. Feedback can be given through the forum. (ex, 1.2.3-beta)
+Commit Pattern
+Commits must be atomic , if two distinct corrections are made, they must be implemented in two different commits. Issue correction messages should describe what has changed and reference the issue number associated with the change.
+
+<Title>
+
+It must contain the succinct description of the change:
+Not more than 50 characters;
+Use the imperative: "Correct" and not "corrected," "corrected," or "corrected"; Be Welcome to the Opernedu community!
+Begin the sentence with a capital letter;
+No point (.) At the end.
+<blank line>
+
+<Body>
+
+It should contain the detailed description of the change:
+Configure your editor ( nano¹ , Vim² ) to break the line in 72 characters
+<blank line>
+
+<Resolve #XXX>
+
+Used to automatically close the issue (number XXX) related to the modification.
+<blank line>
+
+<Obs>
+
+Used to refer to other issues, technical debit and other relevant links.
+For a better understanding of the importance of a descriptive commit and some examples read chris beams and tbaggery .
+
+# Branch policy
+In the community, we use our own branching policy that seeks to combine the flexibility of the fork workflow, quite common to open source projects, with good management practices and the launch of gitflow workflow.
+
+# Master
+We assume the convention that the master branch is the default for development, equivalent to gitflow's develop, so during the development cycle of new releases every change must start (checkout) and return (merge) this branch. Making this an updated but unstable branch, inappropriate to deploy in production.
+
+# Feature
+All functionality must be implemented in a branch itself, branching from the master and back integrated when the functionality is completed. Once the pull request is accepted the branch will be deleted.
+
+# Hotfix
+Corrections that need to be applied urgently must also be created in a proper branch from the master, however it will be possible to incorporate the modifications into any branches that are needed.
+
+# Release
+At the end of the development cycle, when the milestone defined by the community roadmap is properly homologated, a release is launched from the branch branch branch to a new release branch. From now on, only backports will be incorporated. What makes this branch stable to deploy in production.
+
+# Development Flow
+The flow below represents the evolutionary life cycle of the code and the steps required for changes to be incorporated, whether they are bug fixes or new features.
+
+Roadmap -> implement <-> CI <-> Codereview -> Deploy in homologation -> Q & A -> Deploy in production (request completed)
+
+# Request for change
+Discuss the change with the community. Team members can have advice on how best to approach the problem. After agreeing on an overall implementation plan, ask the team member to give you an issue. This discussion can happen in the forum or in the issue .
+
+# Wishlist
+Once a change request is aligned with community guidelines, an issue will open with the tag Wishlist . This community-validated "chest of ideas" is a good starting point for developers interested in contributing to the code. If you would like to volunteer to code this issue, have a team member assign the issue to you.
+
+# Estimate impact / resources
+The community developer core manages its activities using tools such as scrum and Jira. Frequently, sprint planning meetings carry out impact assessments and resources needed to implement the change requests in the wishlist.
+
+# Roadmap
+Since the resources needed to implement the change are appropriate to the team schedule, issue issues into the roadmap. A team member is assigned as responsible and the change request is prioritized and added to the release planning.
+
+# To implement
+The developer assigned to issue makes the appropriate changes / implementations in the code and its tests, respecting the conventions of the community . Once the code is suitable for review, and is fit for merge (no conflicts), a pull request must be opened. And the label revision added to the PR.
+
+# Continuous Integration (CI)
+Every pull request sent to the repository goes through the process of integrating travis , requiring that the build pass in all tests for the pull request to follow for review.
+
+# CodeReview
+A team member is assigned a reviewer and should:
+
+Keep communication clear, giving maximum details in your comments;
+Punctuate positive and negative aspects about the code;
+Have a good understanding of the proposed modification (fixes a bug, improves a feature or part of the code);
+Use the review changes button of github to comment, approve or request changes to commits.
+Take into account that a good solution to a problem today is generally better than a perfect solution tomorrow. However, a gambiarra today is generally worse than a good solution tomorrow. When in doubt, ask for the opinion of others.
+The review should assess aspects such as:
+
+The change fits the stated purpose of the contribution;
+It is valid within the existing project architecture;
+It introduces possible defects that will cause future problems;
+It follows the rules of the house ;
+It is a good way to perform the described function;
+Introduces any safety or instability risk;
+and other aspects deemed necessary.
+If the change is approved, the reviewer must accept the pull request and assign a deployer to the issue.
+
+# Approval (Q & A)
+At that point, the core member responsible for the acceptance tests must evaluate the modification by testing the use of the functionality and evaluating the functional, non-functional and performance criteria, and then accept or refuse what has been implemented.
+
+# Cheatsheet
+Cheatsheet-contribution
+
+# Thank you so much!
+The Openredu community is grateful for your involvement! We hope you have fun with the Openredu code. If you find something difficult to discover, let us know so we can improve our process or documentation!
+
+# Credits
+Using the best of lavoisier and the spirit of sharing free software, this guide was inspired by good practices adopted by notable communities ( gitlab , discourse , jquery , jekyllrb , bootstrap , gnome , mozila , openstack , angula.js , liferay ) and rather googleing. Welcome to the Opernedu community!
+
+# Projetos Voluntarios
 
 Este documento tem por objetivo descrever a função deste repositorio. Sendo assim, aqui você poderá encontrar projetos e atividades de todas as áreas da comunidade Openredu, tornando acessível aos colaboradores interessados em contribuir das mais diversas formas, seja com uma observação feita pelo uso da plataforma, ou área de interesse, sendo elas, Design, Desenvolvimento de código, Educação, DevOps (infraestrutura), Comunicação Social, entre outras. Os requisitos mínimos necessários (e onde encontrá-los) será colocado abaixo para que você não tenha problemas!
 
@@ -151,7 +311,6 @@ Nesse momento o membro do core responsável pelos testes de aceitação deve ava
 
 
 # Cheatsheet
-
 [Cheatsheet-de-contribuição](https://github.com/Openredu/Openredu/wiki/Cheatsheet-de-contribui%C3%A7%C3%A3o)
 
 # Muito Obrigado!
