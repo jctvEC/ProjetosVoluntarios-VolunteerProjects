@@ -3,10 +3,9 @@ You are welcome to Openredu Community! Text below in english and portuguese.
 Seja bem-vindo a Comunidade Openredu! Texto abaixo em inglês e português.
 
 Give us your like and help us to share it!
-facebook: http://fb.com/openredu
-youtube: http://youtube.com/openredu  where a weekly meeting(planning and reviews) takes place at 5 (PM)  o'clock , Brazil, (UTC−3)
-twiiter: http://twitter.com/openredu
-
+facebook: http://fb.com/openredu,
+twiiter: http://twitter.com/openredu, 
+youtube: http://youtube.com/openredu  where a weekly meeting(planning and reviews) takes place at 5 (PM)  o'clock , Brazil, (UTC−3).
 
 # Volunteer Projects
 This document aims to describe the function of this repository. So, here you can find projects and activities from all areas of the Openredu community, making it accessible to employees interested in contributing in a wide variety of ways, either with an observation made through the use of the platform or area of ​​interest, Development of code, Education, DevOps (infrastructure), Social Communication, among others. The minimum requirements needed (and where to find them) will be put down so you do not have problems!
