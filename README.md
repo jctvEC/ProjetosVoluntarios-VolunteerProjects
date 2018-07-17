@@ -2,6 +2,11 @@
 You are welcome to Openredu Community! Text below in english and portuguese.
 Seja bem-vindo a Comunidade Openredu! Texto abaixo em inglês e português.
 
+Give us your like and help us to share it!
+facebook: http://fb.com/openredu
+youtube: http://youtube.com/openredu  where a weekly meeting(planning and reviews) takes place at 5 (PM)  o'clock , Brazil, (UTC−3)
+twiiter: http://twitter.com/openredu
+
 
 # Volunteer Projects
 This document aims to describe the function of this repository. So, here you can find projects and activities from all areas of the Openredu community, making it accessible to employees interested in contributing in a wide variety of ways, either with an observation made through the use of the platform or area of ​​interest, Development of code, Education, DevOps (infrastructure), Social Communication, among others. The minimum requirements needed (and where to find them) will be put down so you do not have problems!
@@ -11,7 +16,7 @@ We believe in the social gain promoted by free software and we exalt all contrib
 We count on you, for a better use of the technologies for Education!
 
 # But what am I going to do, how and where can I contribute?
-If you have this question in your head, we suggest that you first introduce yourself to the community forum , and fill out this [form] ( https://goo.gl/Pz3WNx ) that we will be in touch with as soon as possible. And, do not worry if you do not know many terms used in the form, it will only serve to give us greater fitness than you want to do, and where to do it. Dái, we can forward you to a leader of some community project, so that you are instructed in what you can and want.
+If you have this question in your head, we suggest that you first introduce yourself to the community forum (forum.openredu.org), and fill out this [form] ( https://goo.gl/Pz3WNx ) that we will be in touch with as soon as possible. And, do not worry if you do not know many terms used in the form, it will only serve to give us greater fitness than you want to do, and where to do it. Dái, we can forward you to a leader of some community project, so that you are instructed in what you can and want.
 
 # I do not know how to use git / github, what now?
 If you already know the use of git / gihub this section is not necessary. If you do not use this platform and are wondering what this is all about, we suggest that you first do some basic git / github course like this: https://www.udemy.com/git-e-github-para -initiators / or this https://br.udacity.com/course/how-to-use-git-and-github--ud775 , it is of the utmost importance that you know how to use git / github so that you can actually contribute with the community in a distributed way, regardless of where you are, be patient, you will see that it is quiet!
