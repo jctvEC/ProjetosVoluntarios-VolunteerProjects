@@ -1,4 +1,5 @@
 Text below im english and portuguese. Texto abaixo em inglês e português.
+ You are welcome to Openredu Community! Seja bem-vindo a Comunidade Openredu! 
 
 # Volunteer Projects
 This document aims to describe the function of this repository. So, here you can find projects and activities from all areas of the Openredu community, making it accessible to employees interested in contributing in a wide variety of ways, either with an observation made through the use of the platform or area of ​​interest, Development of code, Education, DevOps (infrastructure), Social Communication, among others. The minimum requirements needed (and where to find them) will be put down so you do not have problems!
@@ -7,7 +8,7 @@ We believe in the social gain promoted by free software and we exalt all contrib
 
 We count on you, for a better use of the technologies for Education!
 
-# But what am I going to do, how and where can I build?
+# But what am I going to do, how and where can I contribute?
 If you have this question in your head, we suggest that you first introduce yourself to the community forum , and fill out this [form] ( https://goo.gl/Pz3WNx ) that we will be in touch with as soon as possible. And, do not worry if you do not know many terms used in the form, it will only serve to give us greater fitness than you want to do, and where to do it. Dái, we can forward you to a leader of some community project, so that you are instructed in what you can and want.
 
 # I do not know how to use git / github, what now?
