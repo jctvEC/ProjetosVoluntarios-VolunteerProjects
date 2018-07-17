@@ -1,5 +1,6 @@
 Text below im english and portuguese. Texto abaixo em inglês e português.
- You are welcome to Openredu Community! Seja bem-vindo a Comunidade Openredu! 
+
+# You are welcome to Openredu Community! Seja bem-vindo a Comunidade Openredu! 
 
 # Volunteer Projects
 This document aims to describe the function of this repository. So, here you can find projects and activities from all areas of the Openredu community, making it accessible to employees interested in contributing in a wide variety of ways, either with an observation made through the use of the platform or area of ​​interest, Development of code, Education, DevOps (infrastructure), Social Communication, among others. The minimum requirements needed (and where to find them) will be put down so you do not have problems!
